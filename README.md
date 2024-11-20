@@ -12,10 +12,10 @@ pip install pyinstaller
 
 ### 2. Features
 
-[x] File Collection: Gather files that will be packaged in the installer.
-[x] Registry & Shortcuts: Optionally add registry keys, shortcuts, or other configurations.
-[x] Installer Configuration: Provide options for customizing the installation process (e.g., choosing install paths, adding prerequisites).
-[x] Executable Creation: Finally, create an installer executable.
+* File Collection: Gather files that will be packaged in the installer.
+* Registry & Shortcuts: Optionally add registry keys, shortcuts, or other configurations.
+* Installer Configuration: Provide options for customizing the installation process (e.g., choosing install paths, adding prerequisites).
+* Executable Creation: Finally, create an installer executable.
 
 ### 3. Creating Setup
 
@@ -72,8 +72,7 @@ Icons: Creates a shortcut in the Start Menu.
 * create_installer: Automates the entire process.
 
 # Run the Python Setup Creator
-Run the above Python script by executing it in the terminal. This will automatically:
-
-[x] Create the executable using PyInstaller.
-[x] Generate the Inno Setup script.
-[x] Compile the installer using Inno Setup.
+### Run the Python script by executing it in the terminal. This will automatically:
+### Create the executable using PyInstaller.
+### Generate the Inno Setup script.
+### Compile the installer using Inno Setup.
