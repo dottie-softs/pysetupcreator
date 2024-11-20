@@ -61,9 +61,9 @@ This will make a config for our compiler.
 *Info*
 
 Explanation of the Script:
-Setup: Contains metadata about your application, such as name, version, and default installation path.
-Files: Defines which files to include in the installer. Here, we specify the app.exe file created by PyInstaller.
-Icons: Creates a shortcut in the Start Menu.
+* Setup: Contains metadata about your application, such as name, version, and default installation path.
+* Files: Defines which files to include in the installer. Here, we specify the app.exe file created by PyInstaller.
+* Icons: Creates a shortcut in the Start Menu.
 
 # How This Script Works:
 * create_executable: Uses PyInstaller to create the .exe file.
